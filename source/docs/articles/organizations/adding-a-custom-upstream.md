@@ -106,7 +106,7 @@ Run your automated acceptance tests, using behat, casper.js, or by manually exec
 When testing is complete, merge any outstanding pull requests into the master branch or push to the branch you want Pantheon to clone and pull updates from. Upstreams can be public or private repositories, but this cannot change after sites are created from it.
 <div class="alert alert-info" role="alert">
 <h4>Note</h4>
-For private repositories, create a dedicated user with read-only access to the repository.</div>
+For private repositories, create a dedicated user with read-only access to the repository. [Previously, we provided the github (gf-pantheon) and bitbucket (pantheon_distributions) users that customers needed to provide read-access to their private repos. Why did we remove these details?]</div>
 
 ## Submit Product Information
 
